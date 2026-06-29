@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://amusing-analysis-production-a05d.up.railway.app/api',
 });
 
 // Har request mein JWT token automatically attach hoga

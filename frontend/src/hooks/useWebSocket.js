@@ -11,7 +11,7 @@ const useWebSocket = (onMessage) => {
   useEffect(() => {
     let socket = null;
     let timeout = setTimeout(() => {
-      socket = new WebSocket('ws://localhost:5000');
+     socket = new WebSocket('wss://amusing-analysis-production-a05d.up.railway.app');
       ws.current = socket;
 
       socket.onopen = () => {

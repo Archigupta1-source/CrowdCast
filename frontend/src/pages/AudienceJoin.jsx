@@ -18,7 +18,9 @@ const AudienceJoin = () => {
     setError('');
 
     try {
-      const res = await fetch(`http://localhost:5000/api/presentations/dummy/sessions/join/${code}`);
+      const res = await fetch(
+  `https://amusing-analysis-production-a05d.up.railway.app/api/presentations/dummy/sessions/join/${code}`
+);
       if (!res.ok) throw new Error('Session not found');
       navigate(`/session/${code}`);
     } catch (err) {
