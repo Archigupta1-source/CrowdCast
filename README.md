@@ -28,12 +28,7 @@ With AI-powered presentation generation, live polls, Word Clouds, and Open Text 
 - 📱 Responsive UI
 - 🎨 Modern UI with Spline 3D & smooth scroll animations
 - 🌐 Fully deployed on Vercel & Railway
-
----
-### Live Results
-
-(Add Screenshot)
-
+  
 ---
 
 ## 🛠 Tech Stack
