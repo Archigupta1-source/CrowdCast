@@ -13,7 +13,6 @@ With AI-powered presentation generation, live polls, Word Clouds, and Open Text 
 
 💻 **Backend:** https://amusing-analysis-production-a05d.up.railway.app
 
-📹 **Demo Video:** (Add YouTube/LinkedIn link if available)
 
 ---
 
@@ -31,33 +30,6 @@ With AI-powered presentation generation, live polls, Word Clouds, and Open Text 
 - 🌐 Fully deployed on Vercel & Railway
 
 ---
-
-## 📸 Screenshots
-
-### Landing Page
-
-(Add Screenshot)
-
----
-
-### AI Presentation Generator
-
-(Add Screenshot)
-
----
-
-### Presenter Dashboard
-
-(Add Screenshot)
-
----
-
-### Audience View
-
-(Add Screenshot)
-
----
-
 ### Live Results
 
 (Add Screenshot)
