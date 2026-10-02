@@ -23,22 +23,22 @@ app.get('/', (req, res) => {
 
 // Routes
 const authRoutes = require('./routes/authRoutes');
-app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
 
 const presentationRoutes = require('./routes/presentationRoutes');
-app.use('/api/presentations', presentationRoutes);
+app.use('/presentations', presentationRoutes);
 
 const slideRoutes = require('./routes/slideRoutes');
-app.use('/api/presentations/:presentationId/slides', slideRoutes);
+app.use('/presentations/:presentationId/slides', slideRoutes);
 
 const sessionRoutes = require('./routes/sessionRoutes');
-app.use('/api/presentations/:presentationId/sessions', sessionRoutes);
+app.use('/presentations/:presentationId/sessions', sessionRoutes);
 
 const responseRoutes = require('./routes/responseRoutes');
-app.use('/api/sessions/:sessionId/responses', responseRoutes);
+app.use('/sessions/:sessionId/responses', responseRoutes);
 
 const aiRoutes = require('./routes/aiRoutes');
-app.use('/api/ai', aiRoutes);
+app.use('/ai', aiRoutes);
 
 // MongoDB connect
 mongoose.connect(process.env.MONGO_URI)
